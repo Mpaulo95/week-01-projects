@@ -1,1 +1,60 @@
+body {
+	background-color: rgba(255, 235, 205, 0.5);
+}
 
+
+#contact-us {
+	background-color: #aaf;
+}
+
+.row {
+	padding-bottom: 30px;
+	margin-bottom: 10px;
+}
+
+#banner {
+	height: 400px;
+	background: url('../img/milkbg.jpg') no-repeat center #02d;
+	background-size: cover;
+	position: relative;
+}
+
+#banner h1 {
+	font-family: Georgia, Times, serif;
+	color: white;
+	text-shadow: 1px 1px #000;
+}
+
+#banner p {
+	color: #8b4513;
+	font-family: Garamond, serif;
+}
+
+.jumbotron {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translateY(-50%) translateX(-50%);
+	background-color: rgba(200, 200, 200, 0.7);
+	color: #333;
+}
+
+.cookies {
+	border: outset;
+	background: linear-gradient(rgb(255, 235, 205), rgba(210, 105, 30, 0.5));
+	padding-top: 20px;
+	border-radius: 5%;
+	outline:none;
+	border-color: transparent;
+}
+
+#about-us {
+	background-color: rgba(250, 124, 100, 0.5);
+}
+
+#about-us img {
+	position: relative;
+	top:50%;
+	padding-top:20px;
+	padding-right:20px;
+}
